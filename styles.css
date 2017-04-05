@@ -1,0 +1,128 @@
+/*box model #F4C58B*/
+/*box model #FAD786*/
+/*box model #BBC774*/
+/*box model #82A9B8*/
+
+body {
+  background-color: #F1F1F1;
+  font-family: 'Roboto Mono', 'Roboto', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.container, .container-fluid, .row, .col, [class*='col-'] {
+  min-height: 3rem;
+}
+
+.container, .container-fluid, .col, [class*='col-'] {
+  border: 1px dashed black;
+}
+
+.row {
+  border: 1px solid black;
+}
+
+.container, .container-fluid {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.row, .col, .col-4, .col-xs-12, .col-md-6, .col-xl {
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.container, .container-fluid {
+  background-color: #F4C58B;
+}
+
+.tile {
+  background-color: #FFF;
+  border: none;
+}
+
+.row {
+  background-color: #FAD786;
+}
+
+.col, .col-4, .col-xs-12, .col-md-6, .col-xl {
+  background-color: #BBC774;
+}
+
+nav {
+  background-color: #333;
+}
+
+h1 {
+  margin: 3rem 1rem;
+}
+
+.alignment .row {
+  height: 10rem;
+}
+
+body > hr {
+  margin: 3rem;
+}
+
+.cover-title {
+  text-align: center;
+}
+
+.awesome, .awesome > .row, .awesome > .row > [class*='col-'] {
+  background-color: white;
+  border: none;
+  margin: 0;
+}
+
+
+@media (min-width: 576px) {
+  .change-color { background-color: #F4C58B; }
+}
+
+@media (min-width: 768px) {
+  .change-color { background-color: #FAD786; }
+}
+
+@media (min-width: 992px) {
+  .change-color { background-color: #BBC774; }
+}
+
+@media (min-width: 1200px) {
+  .change-color { background-color: #82A9B8; }
+}
+
+@media (min-width: 1400px) {
+  .change-color { background-color: #F4C58B; }
+}
+
+@media (min-width: 1600px) {
+  .change-color { background-color: #FAD786; }
+}
+
+@media (min-width: 1800px) {
+  .change-color { background-color: #BBC774; }
+}
+
+@media (min-width: 2000px) {
+  .change-color { background-color: #82A9B8; }
+}
+
+@media (min-width: 2200px) {
+  .change-color { background-color: #F4C58B; }
+}
+
+@media (min-width: 2400px) {
+  .change-color { background-color: #FAD786; }
+}
+
+@media (min-width: 2600px) {
+  .change-color { background-color: #BBC774; }
+}
