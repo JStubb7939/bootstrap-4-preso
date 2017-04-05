@@ -39,11 +39,6 @@ a:hover {
   padding: .5rem;
 }
 
-.aligment {
-  background-color: #BBC774;
-  margin: 0;
-}
-
 .container, .container-fluid {
   background-color: #F4C58B;
 }
@@ -86,6 +81,11 @@ body > hr {
   border: none;
   margin: 0;
   padding: 1rem;
+}
+
+.no-margin {
+  background-color: #BBC774;
+  margin: 0;
 }
 
 
