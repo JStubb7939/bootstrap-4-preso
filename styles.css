@@ -39,6 +39,11 @@ a:hover {
   padding: .5rem;
 }
 
+.aligment {
+  background-color: #BBC774;
+  margin: 0;
+}
+
 .container, .container-fluid {
   background-color: #F4C58B;
 }
