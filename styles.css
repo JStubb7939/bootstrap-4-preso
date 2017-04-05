@@ -46,8 +46,6 @@ a:hover {
 .tile {
   background-color: #FFF;
   border: none;
-  resize: horizontal;
-  overflow: auto;
 }
 
 .row {
