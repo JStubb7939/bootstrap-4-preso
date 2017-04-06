@@ -15,6 +15,7 @@ a {
 a:hover {
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .container, .container-fluid, .row, .col, [class*='col-'] {
